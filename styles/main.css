@@ -1,0 +1,40 @@
+/*
+global
+*/
+
+body {
+    font-family: arial;
+    font-size: 13px;
+}
+a {
+    color: white;
+    text-decoration: none; /* quitar rayya bajo letra*/
+}
+/*
+header
+*/
+header {    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+    height: 64px;
+    padding: 0 20px; /* nomenclatura reducida, padding genera espacio por dentro*/
+}
+header .logo {
+    font-size: 24px;
+}
+header .logo i {
+    font-size: 28px;
+}
+header ul{
+    display: flex;
+    align-items: center;
+}
+header li{
+    margin-left: 10px;
+}
+.banner {
+    height: 300px;
+    overflow: hidden;
+}

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 ​
 ​
 <head>
@@ -8,13 +8,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mi primera pagina web</title>
     <script src="https://kit.fontawesome.com/43f3cc2ec8.js"></script>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/main.css">
 </head>
-​
+
 <body>
     <div>
         <!--HEADER-->
         <header>
-            <a href="index.html">Mis Perros</a>
+            <a class="logo" href="index.html">
+                    <i class="fas fa-dog" aria-hidden="true"></i> Mis Perros
+                </a>
             <nav>
                 <ul>
                     <li>
@@ -34,7 +38,7 @@
         </header>
         <!--MAIN-->
         <main>
-            <section>
+            <section class="banner">
                 <figure>
                     <img src="https://loremflickr.com/1140/840/dog" alt="Dog">
                 </figure>
@@ -146,6 +150,4 @@
         </footer>
     </div>
 </body>
-​
-​
 </html>
